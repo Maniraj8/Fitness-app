@@ -20,56 +20,66 @@ function Muscle({ match }) {
         "Declined dumbell Press - (3*15)",
         "Pull over - (3*15)",
       ]);
-      setHead("CHEST WORK OUT");
+      setHead("CHEST WORKOUT");
     } else if (match.params.id === "2") {
       setImg(
         "https://i.pinimg.com/originals/fc/2e/86/fc2e86a05c86501d51705284cf4e319b.jpg"
       );
-      setWorkout(["shouler press",        
-      "dumbell lateral raise",
-        "upright rows",
-        "cable front raise",
-        "srugs",]);
+      setWorkout([
+        "SHOULDER WORK OUT - (3*15)",
+        "Dumbell lateral raise - (3*15)",
+        "Upright rows - (3*15)",
+        "Cable front raise - (3*15)",
+        "Srugs - (3*15)",
+      ]);
       setHead("SHOULDER WORK OUT");
     } else if (match.params.id === "3") {
       setImg(
         "https://assets.gqindia.com/photos/5cdc548278e364ceaf6fec78/master/pass/triceps-top-image.jpg"
       );
-      setWorkout(["rope pull down",
-        "dumbell kick back",
-        "skull crushers",
-        "overhead rope extension",
-        "bench dips"]);
+      setWorkout([
+        "Rope pull down - (3*15)",
+        "Dumbell kick back - (3*15)",
+        "Skull crushers - (3*15)",
+        "Overhead rope extension - (3*15)",
+        "Bench dips - (3*15)",
+      ]);
       setHead("TRICEP WORK OUT");
     } else if (match.params.id === "4") {
       setImg(
         "https://www.teahub.io/photos/full/28-284379_photo-wallpaper-man-workout-gym-working-gym-workout.jpg"
       );
-      setWorkout(["barbell curls", 
-        "dumbell curls",
-        "preaches curls",
-        "double arm cable curls",
-        "concentration curls"]);
+      setWorkout([
+        "Barbell curls - (3*15)",
+        "Dumbell curls - (3*15)",
+        "Preaches curls - (3*15)",
+        "Double arm cable curls - (3*15)",
+        "Concentration curls - (3*15)",
+      ]);
       setHead("BICEPS WORK OUT");
     } else if (match.params.id === "5") {
       setImg(
         "https://www.bodybuilding.com/images/2016/june/5-leg-workouts-for-mass-header-v2.jpg"
       );
-      setWorkout(["squat",
-        "calf raise",
-        "lunges",
-        "lying leg curls",
-        "leg pres"]);
+      setWorkout([
+        "Squat - (3*15)",
+        "Calf raise - (3*15)",
+        "lunges - (3*15)",
+        "lying leg curls - (3*15)",
+        "leg press - (3*15)",
+      ]);
       setHead("LEGS WORK OUT");
     } else if (match.params.id === "6") {
       setImg(
         "https://img5.goodfon.com/wallpaper/nbig/e/66/spina-muscle-myshtsy-back-turnik-workout-trenazhernyi-zal-gy.jpg"
       );
-      setWorkout(["Dead lift",
-      "cable row",
-      "wide grip pull ups",
-      "T bar row",
-      "pull over"]);
+      setWorkout([
+        "Dead lift - (3*15)",
+        "Cable row - (3*15)",
+        "Wide grip pull ups - (3*15)",
+        "T bar row - (3*15)",
+        "Pull over - (3*15)",
+      ]);
       setHead("LATS WORK OUT");
     }
   }
@@ -102,9 +112,13 @@ function Muscle({ match }) {
         }}
       >
         <img
-          style={{ width: "55%", height: "55%", opacity: 1, borderRadius:"30" }}
+          style={{
+            width: "55%",
+            height: "55%",
+            opacity: 1,
+            borderRadius: "30",
+          }}
           src={img}
-      
         ></img>
         <div>
           <h1>{head}</h1>
